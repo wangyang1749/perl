@@ -1,0 +1,6 @@
+Revision history for Perl extension mode.
+
+0.01  Wed Aug  7 19:00:22 2019
+	- original version; created by h2xs 1.23 with options
+		-O -n mode .\mode\mylib.h
+

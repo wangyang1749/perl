@@ -1,0 +1,12 @@
+Changes
+Makefile.PL
+MANIFEST
+mode.xs
+mylib.a
+mylib.h
+ppport.h
+README
+t/mode.t
+fallback/const-c.inc
+fallback/const-xs.inc
+lib/mode.pm

@@ -3,22 +3,24 @@ my $seq = <>;
 # my $seq="AATTCCGGG";
 my @seqs= split(//,$seq); 
 
-
+my @numbers = (0, 0, 0);
 my $A=0;
 my $T=0;
 my $C=0;
 my $G=0;
-# print($numbers[0]);
-foreach (@seqs) {
-    if($_ eq A){
+# print($#seqs);
+# foreach (@seqs) {
+for (my $i=0;$i<$#seqs;$i++){
+    # print($seqs[]);
+    if($seqs[$i] eq A){
         $A++;
-    }elsif($_ eq T){
+    }elsif($seqs[$i] eq T){
         $T++;
 
-    }elsif($_ eq C){
+    }elsif($seqs[$i] eq C){
         $C++;
 
-    }elsif($_ eq G){
+    }elsif($seqs[$i] eq G){
         $G++;
     }
     
