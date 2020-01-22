@@ -12,3 +12,6 @@ perldoc -l Net::Server
 ```
 perl -e 'use Net::Server'
 ```
+
+
+unzip -O CP936 资料.zip 

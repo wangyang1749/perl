@@ -1,13 +1,8 @@
 print("Please input your seq:\n");
-my $seq = <>;
-# my $seq="AATTCCGGG";
+# my $seq = <>;
+my $seq="AATTCCGGG";
 my @seqs= split(//,$seq); 
-
-
-my $A=0;
-my $T=0;
-my $C=0;
-my $G=0;
+$A=0,$T=0,$C=0,$G=0;
 # print($numbers[0]);
 foreach (@seqs) {
     if($_ eq A){
@@ -21,8 +16,7 @@ foreach (@seqs) {
     }elsif($_ eq G){
         $G++;
     }
-    
- }
+}
 print("The number of A is".$A."\n");
 print("The number of T is".$T."\n");
 print("The number of C is".$C."\n");
